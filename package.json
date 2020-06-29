@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "start": "nodemon",
-    "build": "tsc && cp ./.env ./build/.env"
+    "start": "npm run build && node ./build/index.js",
+    "build": "tsc && cp ./.env ./build/.env",
+    "dev": "nodemon"
   },
   "nodemonConfig": {
     "watch": [
