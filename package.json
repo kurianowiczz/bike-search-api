@@ -2,6 +2,9 @@
   "name": "api",
   "version": "1.0.0",
   "description": "",
+  "engines": {
+    "node": "13.x"
+  },
   "main": "index.ts",
   "scripts": {
     "start": "node ./build/index.js",
